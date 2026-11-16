@@ -1,11 +1,11 @@
-// Chalk Dragon Breakout: a child's rainbow chalk drawing tears up out of the sidewalk as a colossal chalk dragon.
-// Copies image/chalk-dragon.jpg byte for byte to <MAKEFUN_OUTPUT_DIR or /output>/entry.png, after checking it
+// Balloon Rex: a carnival balloon dog erupts into a colossal balloon Tyrannosaurus over a cheering crowd.
+// Copies image/balloon-rex.jpg byte for byte to <MAKEFUN_OUTPUT_DIR or /output>/entry.png, after checking it
 // passes the gate: a whole JPEG (SOI ... EOI), at most 1 MiB, at most 1024 x 1024 pixels.
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-const IMAGE = 'image/chalk-dragon.jpg';
+const IMAGE = 'image/balloon-rex.jpg';
 const MAX_BYTES = 1024 * 1024;
 const MAX_SIDE = 1024;
 
