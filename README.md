@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-excited-01/0xnewbiewhermes/ai-excited-01/rank.svg)](https://make.fun/bounty/ai-excited-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 [![reward](https://make.fun/badge/ai-excited-01/0xnewbiewhermes/ai-excited-01/reward.svg)](https://make.fun/bounty/ai-excited-01?utm_source=github&utm_medium=readme&utm_campaign=ai-excited-01)
 
-**Latte Swan Breakout**: the latte art on a café table comes alive, and a white swan bursts out of the cup with its wings spread, throwing a crown of coffee into the morning sun as the saucer and spoon go flying. `main.ts` (Node 22, standard library only) reads `image/latte-swan.jpg` and checks that it is a whole JPEG (SOI to EOI), at most 1 MiB and at most 1024×1024 by its SOF header. It then writes the exact bytes to `entry.png` in `MAKEFUN_OUTPUT_DIR` (or `/output`), so every run gives the same output.
+**Chalk Dragon Breakout**: a child's rainbow chalk drawing on a city sidewalk comes alive, and a colossal chalk dragon tears up out of the pavement, roaring through a cloud of coloured dust as slabs of concrete fly and the kid who drew it laughs. `main.ts` (Node 22, standard library only) reads `image/chalk-dragon.jpg` and checks that it is a whole JPEG (SOI to EOI), at most 1 MiB and at most 1024×1024 by its SOF header. It then writes the exact bytes to `entry.png` in `MAKEFUN_OUTPUT_DIR` (or `/output`), so every run gives the same output.
 
 ## Run it
 
